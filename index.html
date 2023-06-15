@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form onsubmit="addExpense(event)">
+        <label >Expense amount</label>
+        <input type="text" id="amt" placeholder ="enter amount" name="amount" required>
+        <label >Category</label>
+        <input type="text" id="cat" name="category" placeholder="category for eg food or movie" required>
+        <button>Add expense</button>
+    </form>
+    <ul id = "lists"></ul>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

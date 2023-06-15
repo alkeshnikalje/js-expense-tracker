@@ -1,10 +1,4 @@
-window.onload = function() {
-    for (let i = 0; i < localStorage.length; i++) {
-      const category = localStorage.key(i);
-      const data = JSON.parse(localStorage.getItem(category));
-      showOnScreen(data);
-    }
-  };
+
 
 function addExpense(event){
     event.preventDefault()
